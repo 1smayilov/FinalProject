@@ -31,7 +31,7 @@ namespace Core.Utilities.Security.Hashing
             // Eyni salt istifadə edildikdə, həm orijinal, həm də təsdiqlənən parol üçün eyni hash dəyəri yaranır.
             // Bu metod daxil edilən parolun düzgün olub olmadığını yoxlamaq üçün passwordSalt-ı istifadə edir ki,
             // bu da hash-nin doğru olub olmadığını müəyyənləşdirməyə kömək edir.
-            using (var hmac = new System.Security.Cryptography.HMACSHA512(passwordSalt))
+            using (var hmac = new System.Security.Cryptography.HMACSHA512(passwordSalt)) 
             {   
                 var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password)); 
                 for (int i = 0; i < computedHash.Length; i++)

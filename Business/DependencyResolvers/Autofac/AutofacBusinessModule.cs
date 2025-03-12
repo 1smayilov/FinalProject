@@ -33,19 +33,19 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
 
 
+            // Buradakı, hazırda işləyən bütün sinifləri və interface ləri topla (ProductManager>().As<IProductService>)
+            var assembly = System.Reflection.Assembly.GetExecutingAssembly();  
 
-            var assembly = System.Reflection.Assembly.GetExecutingAssembly();  // Buradakı, hazırda işləyən bütün sinifləri və interface ləri topla 
-
+                // Onların içində implement edilən interface ləri tap
             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces() 
-                // Bu metod, əldə edilən hər bir sinifin implementasiya etdiyi interfeysi tapır və həmin sinifi o interfeys olaraq qeyd edir.
-                // Yəni, sinifləri interfeyslər kimi qeyd edir.
                 .EnableInterfaceInterceptors(new ProxyGenerationOptions()
                 {
+                    // Onlar üçün AspectInterceptorSelector() - u çağır,
+                    // baxsın görsün metodun üstündə atribut var?
                     Selector = new AspectInterceptorSelector()
-                }).SingleInstance(); // Götürür eyni referans nöqtəsini hamıya onu verir
+                }).SingleInstance(); 
 
-            // ProxyGenerationOptions obyektində Selector olaraq AspectInterceptorSelector istifadə olunur.
-            // Bu, hansı interceptors-ların hansı metodlara əlavə ediləcəyini idarə edir.
+            // AspectInterceptorSelector() - Bu Metodun üstündəki atributu yoxlayacaq
 
         }
     }

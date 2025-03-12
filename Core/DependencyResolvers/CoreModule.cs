@@ -26,7 +26,10 @@ namespace Core.DependencyResolvers
             serviceCollection.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             serviceCollection.AddSingleton<ICacheManager, MemoryCacheManager>();
             serviceCollection.AddMemoryCache(); // 1 dənə instance sini yaradır hərkəsə onu verir
-            serviceCollection.AddSingleton<Stopwatch>(); // 1 dənə instance sini yaradır hərkəsə onu verir
+            serviceCollection.AddSingleton<Stopwatch>(); // 1 dənə in stance sini yaradır hərkəsə onu verir
         }
+
+        // Autofac bu injection-ları standart olaraq dəstəkləmir,
+        // ona görə ASP.NET Core-un default Dependency Injection (DI) mexanizmindən istifadə edirik.
     }
 }

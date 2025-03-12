@@ -18,6 +18,7 @@ using System.Net.Http.Headers;
 
 namespace Core.Aspects.Autofac.Validation
 {
+    // Burada işlənən reflectionlar - Activator.CreateInstance, BaseType.GetGenericArguments(), GetType()
     // bu classın məqsədi - metod çağırılmadan əvvəl doğrulama həyata keçirir
     // add metodunu doğrula ProductValidatoru istifadə edərək [ValidationAspect(typeof(ProductValidator))]
     public class ValidationAspect : MethodInterception // 4. // Bu bir interseptordur
@@ -26,7 +27,7 @@ namespace Core.Aspects.Autofac.Validation
         public ValidationAspect(Type validatorType)
         {
             // ILogger da ola bilər məsələn
-            if (!typeof(IValidator).IsAssignableFrom(validatorType))
+            if (!typeof(IValidator).IsAssignableFrom(validatorType)) // buIValidator tipindədir?
             {
                 throw new System.Exception("Bu bir doğrulama sinifi deyil");
             }

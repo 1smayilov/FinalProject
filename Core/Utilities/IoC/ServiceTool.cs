@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,6 +8,13 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.IoC
 {
+    // Bəzi injectionlar var ki Autofacla birlikdə onları işlətmirik. (Core Module) un içinə bax 
+    // Buna görə Asp.Net core öz injectionundan istifadə edirik.
+
+    // Bu metod ASP.NET Core DI konteynerini qurur və ona çıxış təmin edir.
+    // services.BuildServiceProvider() çağırıldıqda, bütün registrasiya olunan servis obyektləri yaradılır.
+    // services geriyə qaytarılır ki, tətbiq normal işləsin.
+
     public static class ServiceTool
     {
         public static IServiceProvider ServiceProvider { get; private set; }
@@ -16,18 +24,10 @@ namespace Core.Utilities.IoC
             ServiceProvider = services.BuildServiceProvider(); 
             return services;
         }
+
+    // ServiceTool yalnız ASP.NET Core-un öz Dependency Injection(DI) mexanizmini istifadə edir.
+    // Autofac-lə əlaqəli deyil və Autofac ilə qeydiyyatdan keçən servislərə çıxış təmin etmir.
     }
-    // Bundan Secured Options - da istifadə olunur
 }
 
-// İlkin Hazırlıq:
-// Restoran açılmadan əvvəl, sənə xidmətçiləri qeyd etmək lazımdır: ofisiantlar, aşpazlar və s. Bu, IServiceCollection vasitəsilə həyata keçirilir.
-// (bütün injectionlar)
-
-// Restoranın Açılması:
-// Restoran açıldıqda, sən Create metodunu çağırırsan. Bu metod, sənə qeyd etdiyin xidmətçiləri (xidmətləri) istifadə üçün hazır edir və
-// ServiceProvider adlı mərkəzi qurur. (Hansının əvəzinə nə olmalıdır)
-
-// Xidmətlərdən İstifadə:
-// İndi müştərilər restoranın xidmətlərindən istifadə edə bilər. Əgər bir müştəri yemək sifariş edərsə, ServiceProvider istifadə edilərək müvafiq xidmətçilər (aşpazlar, ofisiantlar və s.) işə salınır və sifariş yerinə yetirilir.
 

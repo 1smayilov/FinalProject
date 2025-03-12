@@ -35,7 +35,7 @@ namespace Business.BusinessAspects.Autofac
         {
             var roleClaims = _httpContextAccessor.HttpContext.User.ClaimRoles();
             foreach (var role in _roles)
-            {
+            { 
                 if (roleClaims.Contains(role))
                 {
                     return; // İşlətməyə davam et

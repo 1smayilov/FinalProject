@@ -16,6 +16,7 @@ using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -45,6 +46,8 @@ namespace Business.Concrete
         }
 
         [CacheAspect]
+        [PerformanceAspect(1)]
+
         public IDataResult<List<Product>> GetAll()
         {
             if (DateTime.Now.Hour == 22)
@@ -87,7 +90,7 @@ namespace Business.Concrete
 
         // Claim - Yetki
 
-        [PerformanceAspect(5)]
+        [PerformanceAspect(1)]
         [SecuredOperation("product.add,admin")]
         [ValidationAspect(typeof(ProductValidator))]
         [CacheRemoveAspect("IProductService.Get")] // Sadəcə Get yazsan bütün servislərdəki getlərə aid olacaq (ki bu səhv yoldur)
@@ -100,16 +103,23 @@ namespace Business.Concrete
                                               CheckIfProductCountOfCategoryCorrect(product.CategoryId),
                                               CheckIfCategoryLimitExceded());
 
+
+
             if (result != null)
             {
-                return result;
+                return result; // result ın içi boş olmadığı üçün, artıq burada xəta mesajı gəlir
             }
+
 
             _productDal.Add(product);
             return new SuccessResult(Messages.ProductAdded); // 12
 
 
-            
+            var res = _categoryService.GetAll().Data.Count;
+            if(res > 15)
+            {
+                
+            }
         }
 
         [CacheAspect]
@@ -125,7 +135,7 @@ namespace Business.Concrete
         private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
         {
             var result = _productDal.GetAll(p => p.CategoryId == categoryId).Count();
-            if (result > 10)
+            if (result > 100)
             {
                 return new ErrorResult(Messages.ProductCountOfCategoryError);
             }
@@ -153,6 +163,7 @@ namespace Business.Concrete
 
         }
 
+        
         
     }
 }

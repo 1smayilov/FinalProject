@@ -15,7 +15,7 @@ namespace Core.Utilities.Business
             {
                 if (!logic.Success)
                 {
-                    return logic;  // Kurala uymayanı döndürüyoruz
+                    return logic;  // Kurala uymayanı döndürüyoruz ( Göndəririk əsas Metoda )
                 }
             }
             return null;

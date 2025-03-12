@@ -31,12 +31,6 @@ namespace Business.Concrete
             byte[] passwordHash, passwordSalt;
             HashingHelper.CreatePasswordHash(password, out passwordHash, out passwordSalt);
 
-            // Dostun gələn passwordu Hashlayib və Saltlayıb sənə qaytarır sən də yuxarıda saxlayırsan bu dəyərləri
-            // Bu passwordHash və passwordSalt dəyərləri gələcəkdə istifadəçinin daxil etdiyi parolun düzgünlüyünü yoxlamaq üçün istifadə ediləcək.
-            // Daha sonra, Login metodunda istifadəçi daxil olmaq istəyəndə, onun daxil etdiyi parol yenidən hash olunur və həmin istifadəçinin
-            // saxlanılmış passwordHash və passwordSalt dəyərləri ilə müqayisə edilir. Əgər uyğunluq varsa, istifadəçinin daxil olmasına icazə verilir.
-            // Databasə atılır bunlar
-
 
             var user = new User
             {

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Business.csproj": {
+    "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\99450\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\obj\\",
+        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\Etimad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\99450\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Etimad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -93,21 +98,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Core.csproj": {
+    "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\99450\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Etimad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\99450\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Etimad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,6 +124,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -187,21 +197,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\99450\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Etimad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\99450\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Etimad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -209,17 +223,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -260,21 +275,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\99450\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Etimad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\99450\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Etimad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -282,14 +301,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj"
               }
             }
           }
@@ -324,21 +344,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\99450\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Etimad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\99450\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Etimad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -346,23 +370,24 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Business.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Business.csproj"
               },
-              "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -414,7 +439,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

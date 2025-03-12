@@ -29,7 +29,7 @@ namespace Core.Aspects.Autofac.Caching
             // Metodun parametrlərini listə çevir (...)
             var arguments = invocation.Arguments.ToList(); 
             // Metodun parametrlərini - əgər parametr dəyəri varsa GetAll() un içərisinə yüklə yoxdursa null qayıdacaq parametr 
-            var key = $"{methodName}({string.Join(",", arguments.Select(x => x?.ToString() ?? "<Null>"))})"; // Business.Abstract.IProductService.GetAll() 
+            var key = $"{methodName}({string.Join(",", arguments.Select(x => x?.ToString() ?? "<Null>"))})"; // Business.Abstract.IProductService.GetAll(5) 
             // Get bax gör buna uyğun Ramda belə bir şey var? 
             if (_cacheManager.IsAdd(key))
             {
@@ -42,7 +42,7 @@ namespace Core.Aspects.Autofac.Caching
             invocation.Proceed();
             // Keşə yüklə
             _cacheManager.Add(key, invocation.ReturnValue, _duration);
-            // ReturnValue - Core.Utilities.Results.SuccessDataResult<System.Collections.Generic.List<Entities.Concrete.Product>>
+            // ReturnValue - Metod işləyir qurtarır axırda nə nəticə qaytarır (Hansı Datalar Gəlir?) onu add eliyir keşə
         }
     }
 }

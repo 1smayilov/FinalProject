@@ -22,7 +22,7 @@ namespace Core.Aspects.Autofac.Transaction
                 }
                 catch (System.Exception e)
                 {
-                    transactionScope.Dispose(); // Metod uğursuzdur hər şeyi geri qaytar
+                    transactionScope.Dispose(); // Metod uğursuzdur hər şeyi geri qaytar (Rollback)
                     throw;
                 }
             }
