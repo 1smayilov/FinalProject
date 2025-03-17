@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Business.csproj": {
+    "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Etimad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Entities\\Entities.csproj"
               }
             }
           }
@@ -102,14 +102,14 @@
         }
       }
     },
-    "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj": {
+    "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Etimad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -179,6 +179,10 @@
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -201,14 +205,14 @@
         }
       }
     },
-    "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Etimad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -230,11 +234,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\Core.csproj"
               },
-              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Entities\\Entities.csproj"
               }
             }
           }
@@ -279,14 +283,14 @@
         }
       }
     },
-    "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Etimad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -308,8 +312,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\Core.csproj"
               }
             }
           }
@@ -348,14 +352,14 @@
         }
       }
     },
-    "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Etimad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -377,17 +381,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Business.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Business\\Business.csproj"
               },
-              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\Core.csproj"
               },
-              "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Entities\\Entities.csproj"
               }
             }
           }

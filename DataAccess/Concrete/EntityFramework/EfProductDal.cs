@@ -8,36 +8,33 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    // IProductDal nə üçün lazımdır
-    // Business IProductDal istifadə edir
-    // İProductDal ın içərisinə ürüne ait özəl operasyonları qoyacıyıq
-    // Ürünün detaylarını gətirmək üçün Ürünle Categorye join atmak 
-    // İProduct dalın içərisində yazacağın özəl operasyon üçün, ancaq EfProductDal deyəcək ki məni implement et, o birilər deməyəcək
+    // IProductDal - Business layer tərəfindən istifadə olunur
+    // IProductDal daxilində, yalnız məhsullara aid spesifik əməliyyatlar olacaq
     public class EfProductDal : EfEntityRepositoryBase<Product, NorthwindContext>, IProductDal
     {
-        public List<ProductDetailDto> GetProductDetails()
+
+
+        public async Task<List<ProductDetailDto>> GetProductDetailsAsync()
         {
-            using (NorthwindContext context = new NorthwindContext())
+            using (var context = new NorthwindContext())
             {
-                // Ürünlerle kateqoriyanı join et
+
                 var result = from p in context.Products
                              join c in context.Categories
-                             // neye gore join yapayim
                              on p.CategoryId equals c.CategoryId
-                             // sonucu su kolonlara uydurarak ver
-                             select new ProductDetailDto 
+                             select new ProductDetailDto
                              {
-                                 ProductId = p.ProductId, 
-                                 ProductName = p.ProductName, 
+                                 ProductId = p.ProductId,
+                                 ProductName = p.ProductName,
                                  CategoryName = c.CategoryName,
                                  UnitsInStock = p.UnitsInStock
                              };
-                return result.ToList();
+
+                return await result.ToListAsync();
             }
         }
     }

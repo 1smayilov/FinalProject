@@ -9,13 +9,14 @@ namespace Core.Utilities.Business
 {
     public class BusinessRules
     {
-        public static IResult Run(params IResult[] logics) // İstədiyimiz qədər IResult verə bilirik bunları IResult arrayində tutur
+        public static async Task<IResult> Run(params Task<IResult>[] logics) // İstədiyimiz qədər IResult verə bilirik bunları IResult arrayində tutur
         {
             foreach (var logic in logics)
             {
-                if (!logic.Success)
+                var result = await logic;
+                if (!result.Success)
                 {
-                    return logic;  // Kurala uymayanı döndürüyoruz ( Göndəririk əsas Metoda )
+                    return result;  // Kurala uymayanı döndürüyoruz ( Göndəririk əsas Metoda )
                 }
             }
             return null;

@@ -15,10 +15,10 @@ namespace Core.DataAccess
     // new() ; new`lanabilər olmalıdır
     public interface IEntityRepository<T> where T : class, IEntity, new()
     {
-        List<T> GetAll(Expression<Func<T,bool>> filter=null); // Datanın müəyyən hissəsini gətirmək üçündür | categoryId == 2 olanlar
-        T Get(Expression<Func<T,bool>> filter); // Fərqi odur ki categoryId == 2 olanların içindən ilk tapdığını gətirəcək
-        void Add(T entity);
-        void Update(T entity);
-        void Delete(T entity);
+        Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter = null); // Datanın müəyyən hissəsini gətirmək üçündür | categoryId == 2 olanlar
+        Task<T> GetAsync(Expression<Func<T, bool>> filter); // Fərqi odur ki categoryId == 2 olanların içindən ilk tapdığını gətirəcək
+        Task AddAsync(T entity);
+        Task UpdateAsync(T entity);
+        Task DeleteAsync(T entity);
     }
 }

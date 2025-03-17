@@ -18,19 +18,19 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
-        public List<OperationClaim> GetClaims(User user) // Verilmiş istifadəçi üçün rolunu (OperationClaim) əldə etmək. 
+        public async Task<List<OperationClaim>> GetClaimsAsync(User user) // Verilmiş istifadəçi üçün rolunu (OperationClaim) əldə etmək. 
         {
-            return _userDal.GetClaims(user); 
+            return await _userDal.GetClaimsAsync(user); 
         }
 
-        public void Add(User user) //  Yeni bir istifadəçi əlavə etmək.
+        public async Task AddAsync(User user) //  Yeni bir istifadəçi əlavə etmək.
         {
-            _userDal.Add(user);
+            await _userDal.AddAsync(user);
         }
 
-        public User GetByMail(string email) // Verilmiş e-poçt ünvanına görə istifadəçini əldə etmək.
+        public async Task<User> GetByMailAsync(string email) // Verilmiş e-poçt ünvanına görə istifadəçini əldə etmək.
         {
-            return _userDal.Get(u => u.Email == email);
+            return await _userDal.GetAsync(u => u.Email == email);
         }
     }
 }

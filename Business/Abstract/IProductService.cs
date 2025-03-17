@@ -9,15 +9,15 @@ using System.Threading.Tasks;
 
 namespace Business.Abstract
 {
-    public interface IProductService 
+    public interface IProductService
     {
-        IDataResult<List<Product>> GetAll();
-        IDataResult<List<Product>> GetAllByCategory(int categoryId);
-        IDataResult<List<Product>> GetUnitPrice(decimal min, decimal max);
-        IDataResult<List<ProductDetailDto>> GetProductDetails();
-        IDataResult<Product> GetById(int productId);
-        IResult Add(Product product);
-        //IResult AddTransactionalTest(Product product);
+        Task<IDataResult<List<Product>>> GetAllAsync();
+        Task<IDataResult<List<Product>>> GetAllByCategoryAsync(int categoryId);
+        Task<IDataResult<List<Product>>> GetUnitPriceAsync(decimal min, decimal max);
+        Task<IDataResult<List<ProductDetailDto>>> GetProductDetailsAsync();
+        Task<IDataResult<Product>> GetByIdAsync(int productId);
+        Task<IResult> AddAsync(Product product);
+        //Task<IResult> AddTransactionalAsync(Product product);
 
 
     }

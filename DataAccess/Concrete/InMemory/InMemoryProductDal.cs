@@ -24,52 +24,35 @@ namespace DataAccess.Concrete.InMemory
                 new Product{ProductId=5,CategoryId=2,ProductName="Mış",UnitPrice=120,UnitsInStock=78}
             };
         }
-        public void Add(Product product)
-        {
-            // Üstdəki product Uİ dan gəlir
-            // Business dən gələni Database-ə yükləyirəm
-            _products.Add(product); 
-        }
 
-        public void Delete(Product product)
-        {
-            // productToDelete burada artıq eyni referanslı 2 dəyəri tapır
-            Product productToDelete = _products.SingleOrDefault(p=>p.ProductId == product.ProductId);
-            _products.Remove(productToDelete);
-        }
-
-        public Product Get(Expression<Func<Product, bool>> filter)
+        public Task AddAsync(Product entity)
         {
             throw new NotImplementedException();
         }
 
-        public List<Product> GetAll()
-        {
-            return _products;
-        }
-
-        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
+        public Task DeleteAsync(Product entity)
         {
             throw new NotImplementedException();
         }
 
-        public List<Product> GetAllByCategory(int categoryId)
-        {
-            return _products.Where(p => p.CategoryId == categoryId).ToList();
-        }
-
-        public List<ProductDetailDto> GetProductDetails()
+        public Task<List<Product>> GetAllAsync(Expression<Func<Product, bool>> filter = null)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Product product)
+        public Task<Product> GetAsync(Expression<Func<Product, bool>> filter)
         {
-            Product productToUpdate = _products.SingleOrDefault(p=>p.ProductId == product.ProductId);
-            productToUpdate.CategoryId = product.CategoryId;
-            productToUpdate.ProductName = product.ProductName;
-            productToUpdate.UnitPrice = product.UnitPrice;
-            productToUpdate.UnitsInStock = product.UnitsInStock;
+            throw new NotImplementedException();
+        }
+
+        public Task<List<ProductDetailDto>> GetProductDetailsAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateAsync(Product entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }

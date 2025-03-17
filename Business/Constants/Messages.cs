@@ -15,13 +15,21 @@ namespace Business.Constants
     // sınıfının üyelerine erişmek için bir nesne oluşturmaya gerek yoktur. 
     public static class Messages   // static olanda new() - lənə bilmir
     {
-        public static string ProductAdded = "Produkt yükləndi";
-        public static string ProductNameInvalid = "Produkt adı uyğun deyil";
+        public static string ProductAdded = "Məhsullar yükləndi";
+        public static string ProductNameInvalid = "Məhsul adı uyğun deyil";
+        public static string ProductsListed = "Məhsullar listləndi";
+        public static string ProductFetchedById = "Id yə uyğun məhsul gətirildi";
+        public static string ProductsFetchedByCategoryId = "Kateqoriyaya uyğun məhsullar gətirildi";
+        public static string ProductsFetchedByPriceRange = "Verilən qiymət aralığındakı məhsullar gətirildi";
+        public static string ProductCountOfCategoryError = "Kateqoriyada en chox 10 məhsul ola biler";
+        public static string ProductNameAlreadyExists = "Bu adda başqa bir məhsul var";
+
+        public static string CategoryLimitExceded = "Kategoriya limiti aşıldığı üçün yeni məhsul əlavə edə bilməzsiniz";
+        public static string CategoriesListed = "Kateqoriyalar listləndi";
+        public static string CategoryFetchedById = "Id yə uyğun kateqoriya gətirildi";
+
         public static string MaintenanceTime = "Server temirdedir";
-        public static string ProductsListed = "Produktlar listelendi";
-        public static string ProductCountOfCategoryError = "Kategoriyada en chox 10 produkt ola biler";
-        public static string ProductNameAlreadyExists = "Bu adda başqa bir produkt var";
-        public static string CategoryLimitExceded = "Kategoriya limit aşıldığı üçün yeni produkt əlavə edə bilməzsiniz";
+
         public static string AuthorizationDenied = "Səlahiyyətiniz yoxdur";
         public static string UserRegistered = "Qeydiyyatdan keçdi";
         public static string UserNotFound = "İstifadəçi tapılmadı";

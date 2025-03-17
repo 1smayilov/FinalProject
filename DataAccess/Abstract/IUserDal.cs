@@ -10,6 +10,6 @@ namespace DataAccess.Abstract
 {
     public interface IUserDal : IEntityRepository<User>
     {
-        List<OperationClaim> GetClaims(User user); // Database dən İstifadəçinin rollarını çəkmək üçün
+        Task<List<OperationClaim>> GetClaimsAsync(User user); // Database dən İstifadəçinin rollarını çəkmək üçün
     }
 }

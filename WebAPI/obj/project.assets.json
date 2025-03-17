@@ -771,6 +771,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "type": "package",
         "dependencies": {
@@ -1297,7 +1310,8 @@
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
-          "Microsoft.Extensions.Configuration.Binder": "8.0.2"
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
           "bin/placeholder/Core.dll": {}
@@ -2623,6 +2637,36 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.4.0": {
       "sha512": "eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
       "type": "package",
@@ -3508,11 +3552,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\Etimad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3534,17 +3578,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Business.csproj"
+            "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Business\\Business.csproj"
             },
-            "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Core.csproj"
+            "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\Core.csproj"
             },
-            "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Entities\\Entities.csproj"
+            "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Entities\\Entities.csproj"
             }
           }
         }

@@ -1,83 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Etimad\\Desktop\\FinalProject\\",
+  "WorkspaceRootPath": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\etimad\\desktop\\finalproject\\core\\aspects\\autofac\\performance\\performanceaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\performance\\performanceaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\etimad\\desktop\\finalproject\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\etimad\\desktop\\finalproject\\core\\aspects\\autofac\\transaction\\transactionscopeaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\transaction\\transactionscopeaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\etimad\\desktop\\finalproject\\business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\etimad\\desktop\\finalproject\\core\\crosscuttingconcerns\\caching\\microsoft\\memorycachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\caching\\microsoft\\memorycachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\etimad\\desktop\\finalproject\\core\\crosscuttingconcerns\\caching\\icachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\caching\\icachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\etimad\\desktop\\finalproject\\core\\aspects\\autofac\\caching\\cacheremoveaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\caching\\cacheremoveaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\etimad\\desktop\\finalproject\\core\\aspects\\autofac\\caching\\cacheaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\caching\\cacheaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\etimad\\desktop\\finalproject\\business\\businessaspects\\autofac\\securedoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\businessaspects\\autofac\\securedoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\etimad\\desktop\\finalproject\\core\\crosscuttingconcerns\\validation\\fluentvalidation\\validationtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\validation\\fluentvalidation\\validationtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\etimad\\desktop\\finalproject\\core\\utilities\\interceptors\\methodinterception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\methodinterception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|c:\\users\\etimad\\desktop\\finalproject\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|c:\\users\\etimad\\desktop\\finalproject\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\etimad\\desktop\\finalproject\\core\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\etimad\\desktop\\finalproject\\core\\dependencyresolvers\\coremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\etimad\\desktop\\finalproject  refactoring\\core\\dependencyresolvers\\coremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\dependencyresolvers\\coremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\etimad\\desktop\\finalproject\\core\\utilities\\ioc\\servicetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\ioc\\servicetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|c:\\users\\etimad\\desktop\\finalproject  refactoring\\dataaccess\\concrete\\entityframework\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\etimad\\desktop\\finalproject\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\etimad\\desktop\\finalproject  refactoring\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_KD7J5GA/Northwind/True/SqlTable/dbo.UserOperationClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_KD7J5GA/Northwind/True/SqlTable/dbo.OperationClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_KD7J5GA/Northwind/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|c:\\users\\etimad\\desktop\\finalproject  refactoring\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -96,252 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PerformanceAspect.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Aspects\\Autofac\\Performance\\PerformanceAspect.cs",
-              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Performance\\PerformanceAspect.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Aspects\\Autofac\\Performance\\PerformanceAspect.cs",
-              "RelativeToolTip": "Core\\Aspects\\Autofac\\Performance\\PerformanceAspect.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAJAAAA",
+              "Title": "CoreModule.cs",
+              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\DependencyResolvers\\CoreModule.cs",
+              "RelativeDocumentMoniker": "Core\\DependencyResolvers\\CoreModule.cs",
+              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Core\\DependencyResolvers\\CoreModule.cs",
+              "RelativeToolTip": "Core\\DependencyResolvers\\CoreModule.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwBwAAABrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:39:39.796Z",
+              "WhenOpened": "2025-03-17T05:23:36.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TransactionScopeAspect.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Aspects\\Autofac\\Transaction\\TransactionScopeAspect.cs",
-              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Transaction\\TransactionScopeAspect.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Aspects\\Autofac\\Transaction\\TransactionScopeAspect.cs",
-              "RelativeToolTip": "Core\\Aspects\\Autofac\\Transaction\\TransactionScopeAspect.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Title": "AutofacBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA1wCsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:30:28.393Z",
+              "WhenOpened": "2025-03-17T05:23:13.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AuthManager.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Concrete\\AuthManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\AuthManager.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Concrete\\AuthManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\AuthManager.cs",
-              "ViewState": "AQIAAE4AAAAAMzMzMzMbwBYAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:26:42.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CacheRemoveAspect.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Aspects\\Autofac\\Caching\\CacheRemoveAspect.cs",
-              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Caching\\CacheRemoveAspect.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Aspects\\Autofac\\Caching\\CacheRemoveAspect.cs",
-              "RelativeToolTip": "Core\\Aspects\\Autofac\\Caching\\CacheRemoveAspect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:24:03.803Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\WebAPI\\appsettings.json*",
+              "RelativeToolTip": "WebAPI\\appsettings.json*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-17T05:20:44.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Concrete\\ProductManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\Concrete\\ProductManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
-              "ViewState": "AQIAACQAAACAmZmZmZkdwDQAAAAoAAAA",
+              "Title": "NorthwindContext.cs",
+              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\DataAccess\\Concrete\\EntityFramework\\NorthwindContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\NorthwindContext.cs",
+              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject  Refactoring\\DataAccess\\Concrete\\EntityFramework\\NorthwindContext.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\NorthwindContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:04:30.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CacheAspect.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Aspects\\Autofac\\Caching\\CacheAspect.cs",
-              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Caching\\CacheAspect.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Aspects\\Autofac\\Caching\\CacheAspect.cs",
-              "RelativeToolTip": "Core\\Aspects\\Autofac\\Caching\\CacheAspect.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAwCkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:26:46.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICacheManager.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\CrossCuttingConcerns\\Caching\\ICacheManager.cs",
-              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Caching\\ICacheManager.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\CrossCuttingConcerns\\Caching\\ICacheManager.cs",
-              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Caching\\ICacheManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAMwA8AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:03:37.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MemoryCacheManager.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\CrossCuttingConcerns\\Caching\\Microsoft\\MemoryCacheManager.cs",
-              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Caching\\Microsoft\\MemoryCacheManager.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\CrossCuttingConcerns\\Caching\\Microsoft\\MemoryCacheManager.cs",
-              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Caching\\Microsoft\\MemoryCacheManager.cs",
-              "ViewState": "AQIAADEAAAAAbGZmZmb2v0EAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:32:50.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SecuredOperation.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\BusinessAspects\\Autofac\\SecuredOperation.cs",
-              "RelativeDocumentMoniker": "Business\\BusinessAspects\\Autofac\\SecuredOperation.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\BusinessAspects\\Autofac\\SecuredOperation.cs",
-              "RelativeToolTip": "Business\\BusinessAspects\\Autofac\\SecuredOperation.cs",
-              "ViewState": "AQIAAB4AAAAAzczMzEwewCsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:00:43.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MethodInterception.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Utilities\\Interceptors\\MethodInterception.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\MethodInterception.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Utilities\\Interceptors\\MethodInterception.cs",
-              "RelativeToolTip": "Core\\Utilities\\Interceptors\\MethodInterception.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAACAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:38:37.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ValidationTool.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
-              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
-              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
-              "ViewState": "AQIAAAsAAABgZmZmZmYswBMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:26:14.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\Program.cs",
-              "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:16:01.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ServiceTool.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Utilities\\IoC\\ServiceTool.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\IoC\\ServiceTool.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Utilities\\IoC\\ServiceTool.cs",
-              "RelativeToolTip": "Core\\Utilities\\IoC\\ServiceTool.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:02:11.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "Core\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "Core\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:01:41.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CoreModule.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\DependencyResolvers\\CoreModule.cs",
-              "RelativeDocumentMoniker": "Core\\DependencyResolvers\\CoreModule.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Core\\DependencyResolvers\\CoreModule.cs",
-              "RelativeToolTip": "Core\\DependencyResolvers\\CoreModule.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:01:11.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\WebAPI\\appsettings.json",
-              "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-11T10:46:18.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AutofacBusinessModule.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\FinalProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "ViewState": "AQIAAAoAAAAAMzMzMzMLwB0AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:00:47.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "dbo.Users [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_KD7J5GA/Northwind/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "dbo.Users [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-11T10:43:21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "dbo.UserOperationClaims [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_KD7J5GA/Northwind/True/SqlTable/dbo.UserOperationClaims.sql",
-              "ToolTip": "dbo.UserOperationClaims [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-11T10:43:17.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "dbo.OperationClaims [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_KD7J5GA/Northwind/True/SqlTable/dbo.OperationClaims.sql",
-              "ToolTip": "dbo.OperationClaims [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-11T10:43:11.611Z",
+              "WhenOpened": "2025-03-17T05:19:06.655Z",
               "EditorCaption": ""
             }
           ]

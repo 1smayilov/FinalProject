@@ -26,9 +26,9 @@ namespace WebAPI.Controllers
         [HttpGet("getall")]
 
         // IActionResult - status kodlari gormek uchun
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAllAsync()
         {
-            var result = _productService.GetAll();
+            var result = await _productService.GetAllAsync();
             if (result.Success)
             {
                 return Ok(result);
@@ -39,9 +39,9 @@ namespace WebAPI.Controllers
 
         [HttpGet("getbyid")]
 
-        public IActionResult GetById(int id) 
+        public async Task<IActionResult> GetByIdAsync(int id) 
         {
-            var result = _productService.GetById(id);
+            var result = await _productService.GetByIdAsync(id);
             if (result.Success)
             {
                 return Ok(result);
@@ -51,9 +51,9 @@ namespace WebAPI.Controllers
 
         [HttpPost("add")]
 
-        public IActionResult Add(Product product)
+        public async Task<IActionResult> AddAsync(Product product)
         {
-            var result = _productService.Add(product);
+            var result = await _productService.AddAsync(product);
             if (result.Success)
             {
                 return Ok(result);
@@ -61,6 +61,12 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
+        //[HttpPost("addTransactionalAsync")]
+        //public async Task<IActionResult> AddTransactionalAsync(Product product)
+        //{
+        //      await _productService.AddTransactionalAsync(product);
+        //    return Ok();
+        //}
 
     }
 }
